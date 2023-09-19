@@ -1,0 +1,32 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: #f5f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content{
+    background: #fff;
+    width: 1000px;
+    height: 552px;
+    margin: 124px auto 30px;
+    display: flex;
+    align-items: center;
+    .login{
+      &-l{
+        width: 400px;
+        background-color: #cccfd9;
+        height: 100%;
+      }
+    }
+    .ant-form{
+      flex:1;
+      max-width: 400px !important;
+      margin: auto;
+    }
+  }
+}
